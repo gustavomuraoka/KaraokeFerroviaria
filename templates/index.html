@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Ferrokê</title>
+        <link rel="stylesheet" href="../static/style.css">
+    </head>
+
+    <body>
+
+
+
+        <h1 style="display: inline;">Músicas Ferrokê</h1>
+
+
+        <form style="display: inline; float: right;" action="#" method="POST" enctype="multipart/form-data">
+            <h3>Pesquisar música:</h3>
+            <input type="text" name="musica">
+            <input type="submit" text="submit">
+        </form>
+
+    
+
+
+
+
+        <p>Lista:</p>
+
+        <ul> 
+            
+            {%for i in range(0, len-1) %} 
+
+                <li>{{musicas_Ids[i]}}</li> 
+
+            {%endfor%} 
+              
+        </ul>
+
+    </body>
+
+</html>

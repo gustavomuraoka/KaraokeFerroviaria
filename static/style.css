@@ -1,0 +1,9 @@
+body{
+    background-image: url(imgs/Website-Background.jpg); 
+    background-size: cover;
+    background-position: auto;
+    background-repeat: repeat;
+
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
